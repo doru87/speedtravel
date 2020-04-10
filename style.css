@@ -161,6 +161,7 @@ nav {
   @media only screen and (max-width: 1400px) {
     .img-grid {
       grid-template-columns: repeat(3, 1fr);
+      padding:0px;
     }
     .grid-panou h2,
     .grid-panou h3 {
@@ -176,6 +177,7 @@ nav {
   @media only screen and (max-width: 1000px) {
     .img-grid {
       grid-template-columns: repeat(2, 1fr);
+      padding:0px;
     }
     .grid-panou h2,
     .grid-panou h3 {
@@ -189,13 +191,12 @@ nav {
     
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     .img-grid {
       grid-template-columns: repeat(1, 1fr);
+      padding:0px;
     }
-    .grid-panou {
-      height:280px;
-    }
+  
     .grid-panou h2,
     .grid-panou h3 {
       line-height: 1em;
@@ -206,8 +207,15 @@ nav {
       font-size: 1.1em;
     }
 
+    .navigation {
+      margin-left:3px;
+      margin-right:3px;
+      float: left;
+    }
+
     .navigation a {
-      padding: 11px 11px;
+      padding: 10px 5px;
+      margin-left:-6px;
     }
     header{
       height:300px;
@@ -408,7 +416,7 @@ nav {
 
   @media only screen and (max-width: 800px) {
     .contact {
-      width: 250px;
+      width: 200px;
       height: 280px;
     }
     #form h1{
@@ -477,6 +485,9 @@ nav {
 
     .panel_services div  {
       font-size: 1rem;
+      padding:0px;
+      margin-left:4px;
+      margin-right:4px;
     }
 
     .panel_services_content span {
