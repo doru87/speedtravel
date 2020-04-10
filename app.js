@@ -1,7 +1,7 @@
 var panel__content = document.createElement('div');
 panel__content.className="panel__content";
 var h1 = document.createElement('h1');
-h1.innerHTML = "Xanadu Island Resort ";
+h1.innerHTML = "Xanadu Island Resort";
 var p = document.createElement('p');
 p.innerHTML = "Am revenit din Luna noastra de Miere petrecuta la hotelul Xanadu Island Resort. O vacanta superba! Multumim! Acest resort inseamna relaxare, civilizatie, amabilitate, lux maxim, privelisti minunate, camere spatioase, animatie de bun gust, mancare buna pentru toate gusturile de la gratare cu pui, miel, vita, chiftele, kebab, cartofi si legume pe jar, la fructe de mare, peste, prajituri, fructe proaspete. Serile am ascultat muzica live.";
 panel__content.appendChild(h1);
@@ -27,7 +27,6 @@ for (let i = 0; i < myItems.length; i++) {
 		panels[1].appendChild(myItems[1])
 
 		var width = panels[i].offsetWidth;
-		console.log(width);
 		
 		myItems[0].style.width = width * 0.75 +"px";
 		myItems[1].style.width = width * 0.75 +"px";
@@ -87,7 +86,6 @@ window.addEventListener("scroll", function(event) {
 			}else {
 				document.getElementsByClassName('spaces')[0].style.transform = "translateY(10%)"
 				document.getElementsByClassName('model')[0].style.transform ="translateX(0%)";
-		
 				document.getElementsByClassName('curiosity')[0].style.transform ="translateX(0%)";
 			
 			}
